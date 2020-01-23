@@ -1,0 +1,11 @@
+/Users/kk/Documents/techswitch/C#/Calculator/Calculator/bin/Debug/netcoreapp3.1/Calculator
+/Users/kk/Documents/techswitch/C#/Calculator/Calculator/bin/Debug/netcoreapp3.1/Calculator.deps.json
+/Users/kk/Documents/techswitch/C#/Calculator/Calculator/bin/Debug/netcoreapp3.1/Calculator.runtimeconfig.json
+/Users/kk/Documents/techswitch/C#/Calculator/Calculator/bin/Debug/netcoreapp3.1/Calculator.runtimeconfig.dev.json
+/Users/kk/Documents/techswitch/C#/Calculator/Calculator/bin/Debug/netcoreapp3.1/Calculator.dll
+/Users/kk/Documents/techswitch/C#/Calculator/Calculator/bin/Debug/netcoreapp3.1/Calculator.pdb
+/Users/kk/Documents/techswitch/C#/Calculator/Calculator/obj/Debug/netcoreapp3.1/Calculator.csprojAssemblyReference.cache
+/Users/kk/Documents/techswitch/C#/Calculator/Calculator/obj/Debug/netcoreapp3.1/Calculator.AssemblyInfoInputs.cache
+/Users/kk/Documents/techswitch/C#/Calculator/Calculator/obj/Debug/netcoreapp3.1/Calculator.AssemblyInfo.cs
+/Users/kk/Documents/techswitch/C#/Calculator/Calculator/obj/Debug/netcoreapp3.1/Calculator.dll
+/Users/kk/Documents/techswitch/C#/Calculator/Calculator/obj/Debug/netcoreapp3.1/Calculator.pdb
