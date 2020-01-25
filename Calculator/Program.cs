@@ -35,7 +35,7 @@ namespace Calculator
                     break;
             }
             
-            Console.WriteLine($"{firstNumber} {myOperator} {secondNumber} = {answer}");
+            Console.WriteLine($"The answer is = {answer}");
         }
     }
 }
