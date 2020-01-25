@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f2f281f-c1a4-4566-9601-6e4ace40b07c" name="Default Changelist" comment="" />
+    <list default="true" id="6f2f281f-c1a4-4566-9601-6e4ace40b07c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/bin/Debug/netcoreapp3.1/Calculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/bin/Debug/netcoreapp3.1/Calculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/bin/Debug/netcoreapp3.1/Calculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/bin/Debug/netcoreapp3.1/Calculator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/obj/Debug/netcoreapp3.1/Calculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/obj/Debug/netcoreapp3.1/Calculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/obj/Debug/netcoreapp3.1/Calculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/obj/Debug/netcoreapp3.1/Calculator.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Calculator/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -18,6 +28,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1WoUiOvR5u6Kw3KQQ8XX87pwS3i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,6 +36,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager">
@@ -69,31 +81,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579815567931</updated>
-      <workItem from="1579815569971" duration="324000" />
+      <workItem from="1579815569971" duration="457000" />
+      <workItem from="1579962623386" duration="1798000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="WindowStateProjectService">
-    <state width="1218" height="184" key="GridCell.Tab.0.bottom" timestamp="1579815650101">
+    <state width="598" height="197" key="GridCell.Tab.0.bottom" timestamp="1579964797700">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1579815650101" />
-    <state width="1218" height="184" key="GridCell.Tab.0.center" timestamp="1579815650098">
+    <state width="598" height="197" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1579964797700" />
+    <state width="598" height="197" key="GridCell.Tab.0.center" timestamp="1579964797699">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1579815650098" />
-    <state width="1218" height="184" key="GridCell.Tab.0.left" timestamp="1579815650098">
+    <state width="598" height="197" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1579964797699" />
+    <state width="598" height="197" key="GridCell.Tab.0.left" timestamp="1579964797698">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1579815650098" />
-    <state width="1218" height="184" key="GridCell.Tab.0.right" timestamp="1579815650099">
+    <state width="598" height="197" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1579964797698" />
+    <state width="598" height="197" key="GridCell.Tab.0.right" timestamp="1579964797699">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1579815650099" />
+    <state width="598" height="197" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1579964797699" />
   </component>
 </project>
