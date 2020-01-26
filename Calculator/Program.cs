@@ -21,23 +21,19 @@ namespace Calculator
         {
             Console.WriteLine("Enter an operator * - + /");
             string myOperator = Console.ReadLine();
-            
-            Console.WriteLine($"How many numbers do you want to {myOperator} ?");
-            int numberOfnumbers = int.Parse(Console.ReadLine());
-            
+
+            int numberOfnumbers = UserInput(
+                $"How many numbers do you want to {myOperator} ?");
+
             int[] numbersArray = new int[numberOfnumbers];
             
             int count = 1;
 
-            // start loop
             for (int i = 0; i < numbersArray.Length; i++)
             {
-                Console.WriteLine($"Please enter number {count}");
+                int myNumber = UserInput($"Please enter number {count}");
                 count = count + 1;
-                int myNumber = int.Parse(Console.ReadLine());
-
                 numbersArray[i] = myNumber;
-                // Array.ForEach(numbersArray, Console.WriteLine);
             }
 
             // calculator method to go through each number in array and apply operator to it
@@ -67,9 +63,11 @@ namespace Calculator
             Console.WriteLine($"The answer is {answer}");
         }
 
-        static void UserInput()
+        static int UserInput(string prompt)
         {
-            
+            Console.WriteLine(prompt);
+            int number = int.Parse(Console.ReadLine());
+            return number;
         }
     }
 }
