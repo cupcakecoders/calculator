@@ -8,8 +8,17 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the Calculator!");
+            PrintWelcomeMessage();
+            PerformOneCalculation();
+        }
 
+        static void PrintWelcomeMessage()
+        {
+            Console.WriteLine("Welcome to the Calculator!");
+        }
+
+        static void PerformOneCalculation()
+        {
             Console.WriteLine("Enter an operator * - + /");
             string myOperator = Console.ReadLine();
             
@@ -17,7 +26,7 @@ namespace Calculator
             int numberOfnumbers = int.Parse(Console.ReadLine());
             
             int[] numbersArray = new int[numberOfnumbers];
-
+            
             int count = 1;
 
             // start loop
@@ -26,14 +35,13 @@ namespace Calculator
                 Console.WriteLine($"Please enter number {count}");
                 count = count + 1;
                 int myNumber = int.Parse(Console.ReadLine());
-                
+
                 numbersArray[i] = myNumber;
-
+                // Array.ForEach(numbersArray, Console.WriteLine);
             }
-            // Array.ForEach(numbersArray, Console.WriteLine);
-            int answer = numbersArray[0];
 
-            // calculator method go through each number in array and apply operator to it
+            // calculator method to go through each number in array and apply operator to it
+            int answer = numbersArray[0];
             for (int i = 0; i < numbersArray.Length -1; i++)
             {
                 Console.WriteLine($"The number we are dealing with {numbersArray[i + 1]}");
@@ -57,6 +65,11 @@ namespace Calculator
                 }
             }
             Console.WriteLine($"The answer is {answer}");
+        }
+
+        static void UserInput()
+        {
+            
         }
     }
 }
