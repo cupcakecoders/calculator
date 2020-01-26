@@ -31,7 +31,7 @@ namespace Calculator
             Array.ForEach(numbersArray, Console.WriteLine);
             
             // calculator method go through each number in array and apply operator to it
-            for (int i = 0; i < numbersArray.Length; i++)
+            for (int i = 0; i < numbersArray.Length - 1; i++)
             {
                 int answer = 0;
                 switch (myOperator)
