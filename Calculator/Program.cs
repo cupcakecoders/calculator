@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Calculator
 {
@@ -28,30 +30,33 @@ namespace Calculator
                 numbersArray[i] = myNumber;
 
             }
-            Array.ForEach(numbersArray, Console.WriteLine);
-            
+            // Array.ForEach(numbersArray, Console.WriteLine);
+            int answer = numbersArray[0];
+
             // calculator method go through each number in array and apply operator to it
-            for (int i = 0; i < numbersArray.Length - 1; i++)
+            for (int i = 0; i < numbersArray.Length -1; i++)
             {
-                int answer = 0;
+                Console.WriteLine($"The number we are dealing with {numbersArray[i + 1]}");
+                Console.WriteLine($"The answer currently is {answer}");
+
                 switch (myOperator)
 
                 {
                     case "*":
-                        answer = numbersArray[i] * numbersArray[i + 1];
+                        answer = answer * numbersArray[i + 1];
                         break;
                     case "/":
-                        answer = numbersArray[i] / numbersArray[i + 1];
+                        answer = answer / numbersArray[i + 1];
                         break;
                     case "+":
-                        answer = numbersArray[i] + numbersArray[i + 1];
+                        answer = answer + numbersArray[i + 1];
                         break;
                     case "-":
-                        answer = numbersArray[i] - numbersArray[i + 1];
+                        answer = answer - numbersArray[i + 1];
                         break;
                 }
-                Console.WriteLine($"The answer is {answer}");
             }
+            Console.WriteLine($"The answer is {answer}");
         }
     }
 }
