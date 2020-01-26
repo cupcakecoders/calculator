@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 
 namespace Calculator
 {
@@ -9,7 +10,11 @@ namespace Calculator
         static void Main(string[] args)
         {
             PrintWelcomeMessage();
-            PerformOneCalculation();
+
+            while (true)
+            {
+                PerformOneCalculation();
+            }
         }
 
         static void PrintWelcomeMessage()
@@ -66,8 +71,20 @@ namespace Calculator
         static int UserInput(string prompt)
         {
             Console.WriteLine(prompt);
-            int number = int.Parse(Console.ReadLine());
+            int number = GetNumber(Console.ReadLine());
             return number;
+        }
+
+        static int GetNumber(string response)
+        {
+            if (int.TryParse(response, out int number))
+            {
+                return number;
+            }
+            else
+            {
+                return UserInput("That is not a valid response, please enter a number");
+            }
         }
     }
 }
