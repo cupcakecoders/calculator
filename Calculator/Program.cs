@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 
 namespace Calculator
 {
@@ -8,32 +9,40 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the Calculator!");
+            PrintWelcomeMessage();
 
+            while (true)
+            {
+                PerformOneCalculation();
+            }
+        }
+
+        static void PrintWelcomeMessage()
+        {
+            Console.WriteLine("Welcome to the Calculator!");
+        }
+
+        static void PerformOneCalculation()
+        {
             Console.WriteLine("Enter an operator * - + /");
             string myOperator = Console.ReadLine();
-            
-            Console.WriteLine($"How many numbers do you want to {myOperator} ?");
-            int numberOfnumbers = int.Parse(Console.ReadLine());
-            
-            int[] numbersArray = new int[numberOfnumbers];
 
+            int numberOfnumbers = UserInput(
+                $"How many numbers do you want to {myOperator} ?");
+
+            int[] numbersArray = new int[numberOfnumbers];
+            
             int count = 1;
 
-            // start loop
             for (int i = 0; i < numbersArray.Length; i++)
             {
-                Console.WriteLine($"Please enter number {count}");
+                int myNumber = UserInput($"Please enter number {count}");
                 count = count + 1;
-                int myNumber = int.Parse(Console.ReadLine());
-                
                 numbersArray[i] = myNumber;
-
             }
-            // Array.ForEach(numbersArray, Console.WriteLine);
-            int answer = numbersArray[0];
 
-            // calculator method go through each number in array and apply operator to it
+            // calculator method to go through each number in array and apply operator to it
+            int answer = numbersArray[0];
             for (int i = 0; i < numbersArray.Length -1; i++)
             {
                 Console.WriteLine($"The number we are dealing with {numbersArray[i + 1]}");
@@ -57,6 +66,25 @@ namespace Calculator
                 }
             }
             Console.WriteLine($"The answer is {answer}");
+        }
+
+        static int UserInput(string prompt)
+        {
+            Console.WriteLine(prompt);
+            int number = GetNumber(Console.ReadLine());
+            return number;
+        }
+
+        static int GetNumber(string response)
+        {
+            if (int.TryParse(response, out int number))
+            {
+                return number;
+            }
+            else
+            {
+                return UserInput("That is not a valid response, please enter a number");
+            }
         }
     }
 }
