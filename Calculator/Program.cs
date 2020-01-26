@@ -31,8 +31,27 @@ namespace Calculator
             Array.ForEach(numbersArray, Console.WriteLine);
             
             // calculator method go through each number in array and apply operator to it
-            
+            for (int i = 0; i < numbersArray.Length; i++)
+            {
+                int answer = 0;
+                switch (myOperator)
+
+                {
+                    case "*":
+                        answer = numbersArray[i] * numbersArray[i + 1];
+                        break;
+                    case "/":
+                        answer = numbersArray[i] / numbersArray[i + 1];
+                        break;
+                    case "+":
+                        answer = numbersArray[i] + numbersArray[i + 1];
+                        break;
+                    case "-":
+                        answer = numbersArray[i] - numbersArray[i + 1];
+                        break;
+                }
+                Console.WriteLine($"The answer is {answer}");
+            }
         }
-        
     }
 }
