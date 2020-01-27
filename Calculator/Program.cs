@@ -16,10 +16,16 @@ namespace Calculator
 
             while (true)
             {
-                // add if else for choosing date or number calculator use the consts above
-                AskForCalculationMode();
-                // PerformOneCalculation();
-                PerformOneDateCalculation();
+                int calculationMode = AskForCalculationMode();
+
+                if (calculationMode == NumberCalculator)
+                {
+                    PerformOneCalculation();
+                }
+                else
+                {
+                    PerformOneDateCalculation();
+                }
             }
         }
 
@@ -96,7 +102,7 @@ namespace Calculator
             }
             else
             {
-                return UserInputDate("That was not a valid date, please enter a date dd/mm/yyyy");
+                return UserInputDate("That was not a valid date, please enter a date mm/dd/yyyy");
             }
         }
 
@@ -114,18 +120,19 @@ namespace Calculator
 
         static DateTime PerformOneDateCalculation()
         {
-            DateTime userDate = UserInputDate("Please enter a date: dd/mm/yyyy");
+            DateTime userDate = UserInputDate("Please enter a date: mm/dd/yyyy");
             var daysToAdd = UserInput("Please enter the number of days to add:");
 
             DateTime dateCalculation = userDate.AddDays(daysToAdd);
-            
-            Console.WriteLine(dateCalculation);
+
+            Console.WriteLine(dateCalculation.ToShortDateString());
             return dateCalculation;
         }
 
-        static void AskForCalculationMode()
+        static int AskForCalculationMode()
         {
             var calculatorType = UserInput("Which calculator do you want? \n 1) Numbers \n 2) Dates");
+            return calculatorType;
         }
     }
 }
