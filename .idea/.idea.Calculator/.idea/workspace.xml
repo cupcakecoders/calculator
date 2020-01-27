@@ -38,6 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager">
     <configuration name="Calculator" type="DotNetProject" factoryName=".NET Project">
@@ -82,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579815567931</updated>
       <workItem from="1579815569971" duration="457000" />
-      <workItem from="1579962623386" duration="24309000" />
+      <workItem from="1579962623386" duration="33481000" />
     </task>
     <servers />
   </component>
@@ -91,26 +92,45 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="132" key="GridCell.Tab.0.bottom" timestamp="1580080327289">
+    <state x="45" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580159680125">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="132" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1580080327289" />
-    <state width="1238" height="132" key="GridCell.Tab.0.center" timestamp="1580080327288">
+    <state x="45" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777@0.23.1280.777" timestamp="1580159680125" />
+    <state width="598" height="205" key="GridCell.Tab.0.bottom" timestamp="1580159829989">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="132" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1580080327288" />
-    <state width="1238" height="132" key="GridCell.Tab.0.left" timestamp="1580080327287">
+    <state width="598" height="205" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1580159829989" />
+    <state width="598" height="205" key="GridCell.Tab.0.center" timestamp="1580159829988">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="132" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1580080327287" />
-    <state width="1238" height="132" key="GridCell.Tab.0.right" timestamp="1580080327288">
+    <state width="598" height="205" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1580159829988" />
+    <state width="598" height="205" key="GridCell.Tab.0.left" timestamp="1580159829988">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="132" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1580080327288" />
+    <state width="598" height="205" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1580159829988" />
+    <state width="598" height="205" key="GridCell.Tab.0.right" timestamp="1580159829989">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="598" height="205" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1580159829989" />
     <state x="480" y="150" key="Rider.ProjectTemplateDialog.Size" timestamp="1580051570745">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="480" y="150" key="Rider.ProjectTemplateDialog.Size/0.23.1280.777@0.23.1280.777" timestamp="1580051570745" />
+    <state x="759" y="123" key="VCS.ChangeListViewerDialog" timestamp="1580154939385">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="759" y="123" key="VCS.ChangeListViewerDialog/0.23.1280.777@0.23.1280.777" timestamp="1580154939385" />
   </component>
 </project>
