@@ -13,12 +13,13 @@ namespace Calculator
         static void Main(string[] args)
         {
             PrintWelcomeMessage();
-            
 
             while (true)
             {
+                // add if else for choosing date or number calculator use the consts above
                 AskForCalculationMode();
-                PerformOneCalculation();
+                // PerformOneCalculation();
+                PerformOneDateCalculation();
             }
         }
 
@@ -80,6 +81,25 @@ namespace Calculator
             return number;
         }
 
+        static DateTime UserInputDate(string prompt)
+        {
+            Console.WriteLine(prompt);
+            DateTime userDate = GetValidDate(Console.ReadLine());
+            return userDate;
+        }
+
+        static DateTime GetValidDate(string dateresponse)
+        {
+            if (DateTime.TryParse(dateresponse, out DateTime userDate))
+            {
+                return userDate;
+            }
+            else
+            {
+                return UserInputDate("That was not a valid date, please enter a date dd/mm/yyyy");
+            }
+        }
+
         static int GetNumber(string response)
         {
             if (int.TryParse(response, out int number))
@@ -92,11 +112,16 @@ namespace Calculator
             }
         }
 
-        // static void AddToDate()
-        // {
-        //     DateTime currentDate = DateTime.Now;
-        //     Console.WriteLine(currentDate.AddDays(2).ToLongDateString());
-        // }
+        static DateTime PerformOneDateCalculation()
+        {
+            DateTime userDate = UserInputDate("Please enter a date: dd/mm/yyyy");
+            var daysToAdd = UserInput("Please enter the number of days to add:");
+
+            DateTime dateCalculation = userDate.AddDays(daysToAdd);
+            
+            Console.WriteLine(dateCalculation);
+            return dateCalculation;
+        }
 
         static void AskForCalculationMode()
         {
