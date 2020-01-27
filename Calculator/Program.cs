@@ -7,12 +7,17 @@ namespace Calculator
 {
     class Program
     {
+        private const int NumberCalculator = 1;
+        private const int DateCalculator = 2;
+        
         static void Main(string[] args)
         {
             PrintWelcomeMessage();
+            
 
             while (true)
             {
+                AskForCalculationMode();
                 PerformOneCalculation();
             }
         }
@@ -27,7 +32,7 @@ namespace Calculator
             Console.WriteLine("Enter an operator * - + /");
             string myOperator = Console.ReadLine();
 
-            int numberOfnumbers = UserInput(
+            var numberOfnumbers = UserInput(
                 $"How many numbers do you want to {myOperator} ?");
 
             int[] numbersArray = new int[numberOfnumbers];
@@ -42,7 +47,7 @@ namespace Calculator
             }
 
             // calculator method to go through each number in array and apply operator to it
-            int answer = numbersArray[0];
+            var answer = numbersArray[0];
             for (int i = 0; i < numbersArray.Length -1; i++)
             {
                 Console.WriteLine($"The number we are dealing with {numbersArray[i + 1]}");
@@ -71,7 +76,7 @@ namespace Calculator
         static int UserInput(string prompt)
         {
             Console.WriteLine(prompt);
-            int number = GetNumber(Console.ReadLine());
+            var number = GetNumber(Console.ReadLine());
             return number;
         }
 
@@ -85,6 +90,17 @@ namespace Calculator
             {
                 return UserInput("That is not a valid response, please enter a number");
             }
+        }
+
+        // static void AddToDate()
+        // {
+        //     DateTime currentDate = DateTime.Now;
+        //     Console.WriteLine(currentDate.AddDays(2).ToLongDateString());
+        // }
+
+        static void AskForCalculationMode()
+        {
+            var calculatorType = UserInput("Which calculator do you want? \n 1) Numbers \n 2) Dates");
         }
     }
 }
