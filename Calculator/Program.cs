@@ -21,12 +21,13 @@ namespace Calculator
 
                 if (calculationMode == NumberCalculator)
                 {
-                    var newcalculation = new NumberCalculatorx();
-                    newcalculation.PerformOneCalculation();
+                    var newnumbercalculation = new NumberCalculatorx();
+                    newnumbercalculation.PerformOneCalculation();
                 }
                 else
                 {
-                    PerformOneDateCalculation();
+                    var newdatecalculation = new DateCalculatorx();
+                    newdatecalculation.PerformOneDateCalculation();
                 }
             }
         }
@@ -36,57 +37,12 @@ namespace Calculator
             Console.WriteLine("Welcome to the Calculator!");
         }
 
-        static DateTime UserInputDate(string prompt)
-        {
-            Console.WriteLine(prompt);
-            DateTime userDate = GetValidDate(Console.ReadLine());
-            return userDate;
-        }
-
-        static DateTime GetValidDate(string dateresponse)
-        {
-            if (DateTime.TryParse(dateresponse, out DateTime userDate))
-            {
-                return userDate;
-            }
-            else
-            {
-                return UserInputDate("That was not a valid date, please enter a date mm/dd/yyyy");
-            }
-        }
-        static int UserInput(string prompt)
-        {
-            Console.WriteLine(prompt);
-            var number = GetNumber(Console.ReadLine());
-            return number;
-        }
         
-        static int GetNumber(string response)
-        {
-            if (int.TryParse(response, out int number))
-            {
-                return number;
-            }
-            else
-            {
-                return UserInput("That is not a valid response, please enter a number");
-            }
-        }
-
-        static DateTime PerformOneDateCalculation()
-        {
-            DateTime userDate = UserInputDate("Please enter a date: mm/dd/yyyy");
-            var daysToAdd = UserInput("Please enter the number of days to add:");
-
-            DateTime dateCalculation = userDate.AddDays(daysToAdd);
-
-            Console.WriteLine(dateCalculation.ToShortDateString());
-            return dateCalculation;
-        }
+        
 
         static int AskForCalculationMode()
         {
-            var calculatorType = UserInput("Which calculator do you want? \n 1) Numbers \n 2) Dates");
+            var calculatorType = Prompts.UserInput("Which calculator do you want? \n 1) Numbers \n 2) Dates");
             return calculatorType;
         }
     }

@@ -17,7 +17,7 @@ namespace Calculator
             Console.WriteLine("Enter an operator * - + /");
             myOperator = Console.ReadLine();
 
-            numberOfnumbers = UserInput(
+            numberOfnumbers = Prompts.UserInput(
                 $"How many numbers do you want to {myOperator} ?");
 
             numbersArray = new int[numberOfnumbers];
@@ -26,7 +26,7 @@ namespace Calculator
 
             for (int i = 0; i < numbersArray.Length; i++)
             {
-                myNumber = UserInput($"Please enter number {count}");
+                myNumber = Prompts.UserInput($"Please enter number {count}");
                 count = count + 1;
                 numbersArray[i] = myNumber;
             }
@@ -60,23 +60,6 @@ namespace Calculator
             return answer;
         }
 
-        private int UserInput(string prompt)
-        {
-            Console.WriteLine(prompt);
-            var number = GetNumber(Console.ReadLine());
-            return number;
-        }
-
-        private int GetNumber(string response)
-        {
-            if (int.TryParse(response, out int number))
-            {
-                return number;
-            }
-            else
-            {
-                return UserInput("That is not a valid response, please enter a number");
-            }
-        }
+      
     }
 }
