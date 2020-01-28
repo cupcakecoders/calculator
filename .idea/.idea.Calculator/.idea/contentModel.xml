@@ -5,6 +5,7 @@
       <e p="Calculator" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Calculator.csproj" t="IncludeRecursive" />
+        <e p="NumberCalculatorClass.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
