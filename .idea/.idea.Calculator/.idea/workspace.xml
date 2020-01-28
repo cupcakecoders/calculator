@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f2f281f-c1a4-4566-9601-6e4ace40b07c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Calculator/DateCalculatorClass.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculator/PromptsClass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/NumberCalculatorClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/NumberCalculatorClass.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculator/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/bin/Debug/netcoreapp3.1/Calculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/bin/Debug/netcoreapp3.1/Calculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/bin/Debug/netcoreapp3.1/Calculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/bin/Debug/netcoreapp3.1/Calculator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/obj/Debug/netcoreapp3.1/Calculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/obj/Debug/netcoreapp3.1/Calculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/obj/Debug/netcoreapp3.1/Calculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/obj/Debug/netcoreapp3.1/Calculator.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +19,16 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Calculator/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Calculator/DateCalculatorClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Calculator/PromptsClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Calculator/NumberCalculatorClass.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Calculator/DateCalculatorClass.cs" />
+        <option value="$PROJECT_DIR$/Calculator/PromptsClass.cs" />
+        <option value="$PROJECT_DIR$/Calculator/NumberCalculatorClass.cs" />
         <option value="$PROJECT_DIR$/Calculator/Program.cs" />
       </list>
     </option>
@@ -83,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579815567931</updated>
       <workItem from="1579815569971" duration="457000" />
-      <workItem from="1579962623386" duration="33481000" />
+      <workItem from="1579962623386" duration="41020000" />
     </task>
     <servers />
   </component>
@@ -108,26 +114,26 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="45" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777@0.23.1280.777" timestamp="1580159680125" />
-    <state width="598" height="205" key="GridCell.Tab.0.bottom" timestamp="1580159829989">
+    <state width="1238" height="123" key="GridCell.Tab.0.bottom" timestamp="1580248579313">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="598" height="205" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1580159829989" />
-    <state width="598" height="205" key="GridCell.Tab.0.center" timestamp="1580159829988">
+    <state width="1238" height="123" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1580248579313" />
+    <state width="1238" height="123" key="GridCell.Tab.0.center" timestamp="1580248579312">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="598" height="205" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1580159829988" />
-    <state width="598" height="205" key="GridCell.Tab.0.left" timestamp="1580159829988">
+    <state width="1238" height="123" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1580248579312" />
+    <state width="1238" height="123" key="GridCell.Tab.0.left" timestamp="1580248579311">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="598" height="205" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1580159829988" />
-    <state width="598" height="205" key="GridCell.Tab.0.right" timestamp="1580159829989">
+    <state width="1238" height="123" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1580248579311" />
+    <state width="1238" height="123" key="GridCell.Tab.0.right" timestamp="1580248579313">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="598" height="205" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1580159829989" />
-    <state x="480" y="150" key="Rider.ProjectTemplateDialog.Size" timestamp="1580051570745">
+    <state width="1238" height="123" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1580248579313" />
+    <state x="480" y="150" key="Rider.ProjectTemplateDialog.Size" timestamp="1580236357679">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="480" y="150" key="Rider.ProjectTemplateDialog.Size/0.23.1280.777@0.23.1280.777" timestamp="1580051570745" />
+    <state x="480" y="150" key="Rider.ProjectTemplateDialog.Size/0.23.1280.777@0.23.1280.777" timestamp="1580236357679" />
     <state x="759" y="123" key="VCS.ChangeListViewerDialog" timestamp="1580154939385">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
