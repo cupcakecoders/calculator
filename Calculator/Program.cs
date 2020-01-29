@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
 
@@ -13,8 +14,10 @@ namespace Calculator
         
         static void Main(string[] args)
         {
-            PrintWelcomeMessage();
+            File.WriteAllText("/Users/kk/Documents/techswitch/C#/Calculator/Calculator/logs.txt", String.Empty);
 
+            PrintWelcomeMessage();
+            
             while (true)
             {
                 int calculationMode = AskForCalculationMode();
@@ -23,6 +26,7 @@ namespace Calculator
                 {
                     var newnumbercalculation = new NumberCalculatorx();
                     newnumbercalculation.PerformOneCalculation();
+                    
                 }
                 else
                 {
@@ -36,8 +40,6 @@ namespace Calculator
         {
             Console.WriteLine("Welcome to the Calculator!");
         }
-
-        
         
 
         static int AskForCalculationMode()

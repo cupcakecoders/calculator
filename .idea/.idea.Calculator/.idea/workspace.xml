@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f2f281f-c1a4-4566-9601-6e4ace40b07c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Calculator/DateCalculatorClass.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculator/PromptsClass.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/LogClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/LogClass.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculator/NumberCalculatorClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/NumberCalculatorClass.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculator/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/bin/Debug/netcoreapp3.1/Calculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/bin/Debug/netcoreapp3.1/Calculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/bin/Debug/netcoreapp3.1/Calculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/bin/Debug/netcoreapp3.1/Calculator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/logs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/obj/Debug/netcoreapp3.1/Calculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/obj/Debug/netcoreapp3.1/Calculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/obj/Debug/netcoreapp3.1/Calculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/obj/Debug/netcoreapp3.1/Calculator.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,16 +22,19 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Calculator/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Calculator/LogClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Calculator/DateCalculatorClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Calculator/PromptsClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/407BDC87-9D10-4CC3-880A-4F9DEF6C1A0B/6/Console.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Calculator/NumberCalculatorClass.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Calculator/DateCalculatorClass.cs" />
         <option value="$PROJECT_DIR$/Calculator/PromptsClass.cs" />
+        <option value="$PROJECT_DIR$/Calculator/DateCalculatorClass.cs" />
         <option value="$PROJECT_DIR$/Calculator/NumberCalculatorClass.cs" />
+        <option value="$PROJECT_DIR$/Calculator/LogClass.cs" />
         <option value="$PROJECT_DIR$/Calculator/Program.cs" />
       </list>
     </option>
@@ -114,22 +120,22 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="45" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777@0.23.1280.777" timestamp="1580159680125" />
-    <state width="1238" height="123" key="GridCell.Tab.0.bottom" timestamp="1580248579313">
+    <state width="598" height="232" key="GridCell.Tab.0.bottom" timestamp="1580333164329">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="123" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1580248579313" />
-    <state width="1238" height="123" key="GridCell.Tab.0.center" timestamp="1580248579312">
+    <state width="598" height="232" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1580333164329" />
+    <state width="598" height="232" key="GridCell.Tab.0.center" timestamp="1580333164328">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="123" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1580248579312" />
-    <state width="1238" height="123" key="GridCell.Tab.0.left" timestamp="1580248579311">
+    <state width="598" height="232" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1580333164328" />
+    <state width="598" height="232" key="GridCell.Tab.0.left" timestamp="1580333164327">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="123" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1580248579311" />
-    <state width="1238" height="123" key="GridCell.Tab.0.right" timestamp="1580248579313">
+    <state width="598" height="232" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1580333164327" />
+    <state width="598" height="232" key="GridCell.Tab.0.right" timestamp="1580333164328">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="123" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1580248579313" />
+    <state width="598" height="232" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1580333164328" />
     <state x="480" y="150" key="Rider.ProjectTemplateDialog.Size" timestamp="1580236357679">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -138,5 +144,13 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="759" y="123" key="VCS.ChangeListViewerDialog/0.23.1280.777@0.23.1280.777" timestamp="1580154939385" />
+    <state x="613" y="47" width="667" height="729" key="find.popup" timestamp="1580329617345">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="613" y="47" width="667" height="729" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1580329617345" />
+    <state x="625" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1580329531835">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="625" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1580329531835" />
   </component>
 </project>

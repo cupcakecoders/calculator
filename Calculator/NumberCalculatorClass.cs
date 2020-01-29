@@ -35,9 +35,6 @@ namespace Calculator
             answer = numbersArray[0];
             for (int i = 0; i < numbersArray.Length - 1; i++)
             {
-                Console.WriteLine($"The number we are dealing with {numbersArray[i + 1]}");
-                Console.WriteLine($"The answer currently is {answer}");
-
                 switch (myOperator)
 
                 {
@@ -56,10 +53,11 @@ namespace Calculator
                 }
             }
 
+            LogCalculations.Log($"Operator {myOperator}, Numbers, {string.Join(", ", numbersArray)} answer {answer}");
+            
             Console.WriteLine($"The answer is {answer}");
             return answer;
         }
 
-      
     }
 }
