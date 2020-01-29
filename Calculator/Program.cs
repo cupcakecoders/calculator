@@ -15,6 +15,8 @@ namespace Calculator
         {
             PrintWelcomeMessage();
 
+            LogCalculations.Log();
+            
             while (true)
             {
                 int calculationMode = AskForCalculationMode();

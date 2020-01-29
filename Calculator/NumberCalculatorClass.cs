@@ -14,6 +14,7 @@ namespace Calculator
 
         public int PerformOneCalculation()
         {
+            Console.WriteLine("the answer is ... {0}", answer);
             Console.WriteLine("Enter an operator * - + /");
             myOperator = Console.ReadLine();
 
