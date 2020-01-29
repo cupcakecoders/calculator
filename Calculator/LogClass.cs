@@ -8,8 +8,7 @@ namespace Calculator
     {
 
         public static void Log(string value)
-        
-            
+
         {
             using (StreamWriter w = File.AppendText("/Users/kk/Documents/techswitch/C#/Calculator/Calculator/logs.txt"))
             {
