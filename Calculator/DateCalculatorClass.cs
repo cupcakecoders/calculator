@@ -16,6 +16,7 @@ namespace Calculator
 
             dateCalculation = userDate.AddDays(daysToAdd);
 
+            LogCalculations.Log($"Date {userDate}, days to add {daysToAdd}, answer {dateCalculation}");
             Console.WriteLine(dateCalculation.ToShortDateString());
             return dateCalculation;
         }
