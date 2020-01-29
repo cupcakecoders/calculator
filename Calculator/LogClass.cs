@@ -1,18 +1,21 @@
 using System;
 using System.IO;
+using System.Runtime.CompilerServices;
 
 namespace Calculator 
 {
-    public class LogCalculations
+    public static class LogCalculations
     {
-        public static void Log()
+
+        public static void Log(string value)
+        
+            
         {
             using (StreamWriter w = File.AppendText("/Users/kk/Documents/techswitch/C#/Calculator/Calculator/logs.txt"))
             {
-                w.Write("Test1");
+                w.WriteLine(value);
             }
         }
-        
     }
 }
 
