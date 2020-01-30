@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Calculator
 {
@@ -10,7 +12,6 @@ namespace Calculator
         private int numberOfnumbers;
         private int myNumber;
         private int answer;
-        private int[] numbersArray;
 
         public int PerformOneCalculation()
         {
@@ -18,42 +19,43 @@ namespace Calculator
             myOperator = Console.ReadLine();
 
             numberOfnumbers = Prompts.UserInput(
-                $"How many numbers do you want to {myOperator} ?");
+                $"How many numbersList do you want to {myOperator} ?");
 
-            numbersArray = new int[numberOfnumbers];
-
+            List<int> numbersList = new List<int>();
+            
             int count = 1;
 
-            for (int i = 0; i < numbersArray.Length; i++)
+            for (int i = 0; i < numberOfnumbers; i++)
             {
                 myNumber = Prompts.UserInput($"Please enter number {count}");
                 count = count + 1;
-                numbersArray[i] = myNumber;
+                numbersList.Insert(i, myNumber);
             }
-
+            
             // calculator method to go through each number in array and apply operator to it
-            answer = numbersArray[0];
-            for (int i = 0; i < numbersArray.Length - 1; i++)
+            answer = numbersList.First();
+            
+            for (int i = 0; i < numbersList.Count - 1; i++)
             {
                 switch (myOperator)
 
                 {
                     case "*":
-                        answer = answer * numbersArray[i + 1];
+                        answer = answer * numbersList[i + 1];
                         break;
                     case "/":
-                        answer = answer / numbersArray[i + 1];
+                        answer = answer / numbersList[i + 1];
                         break;
                     case "+":
-                        answer = answer + numbersArray[i + 1];
+                        answer = answer + numbersList[i + 1];
                         break;
                     case "-":
-                        answer = answer - numbersArray[i + 1];
+                        answer = answer - numbersList[i + 1];
                         break;
                 }
             }
 
-            LogCalculations.Log($"Operator {myOperator}, Numbers, {string.Join(", ", numbersArray)} answer {answer}");
+            LogCalculations.Log($"Operator {myOperator}, Numbers, {string.Join(", ", numbersList)} answer {answer}");
             
             Console.WriteLine($"The answer is {answer}");
             return answer;
