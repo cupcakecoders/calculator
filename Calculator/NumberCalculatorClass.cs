@@ -9,8 +9,8 @@ namespace Calculator
 
         // instance variables
         private string myOperator;
-        private int numberOfnumbers;
-        private int myNumber;
+        // private int numberOfnumbers;
+        private int? myNumber;
         private int answer;
 
         public int PerformOneCalculation()
@@ -18,20 +18,30 @@ namespace Calculator
             Console.WriteLine("Enter an operator * - + /");
             myOperator = Console.ReadLine();
 
-            numberOfnumbers = Prompts.UserInput(
-                $"How many numbersList do you want to {myOperator} ?");
+            // numberOfnumbers = Prompts.UserInput(
+            //     $"How many numbersList do you want to {myOperator} ?");
 
             List<int> numbersList = new List<int>();
-            
-            int count = 1;
 
-            for (int i = 0; i < numberOfnumbers; i++)
-            {
-                myNumber = Prompts.UserInput($"Please enter number {count}");
-                count = count + 1;
-                numbersList.Insert(i, myNumber);
-            }
-            
+            // for (int i = 0; i < numbersList.Count; i++)
+
+                int count = 0;
+                while (true)
+                {      
+                    myNumber = Prompts.UserInput($"Please enter number:");
+                    if (myNumber.HasValue)
+                    {
+                        numbersList.Insert(count, myNumber.Value);
+                        count = count + 1;
+    
+                    }
+                    else
+                    {
+                        break;
+                    }
+                    
+                }
+                
             // calculator method to go through each number in array and apply operator to it
             answer = numbersList.First();
             

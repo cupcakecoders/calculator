@@ -45,7 +45,15 @@ namespace Calculator
         static int AskForCalculationMode()
         {
             var calculatorType = Prompts.UserInput("Which calculator do you want? \n 1) Numbers \n 2) Dates");
-            return calculatorType;
+            if (calculatorType.HasValue)
+            {
+                return calculatorType.Value;
+            }
+            else
+            {
+                return AskForCalculationMode();
+            }
+                
         }
     }
 }
