@@ -1,2 +1,2 @@
-Operator +, Numbers, 2, 2, 2, 2 answer 8
-Operator +, Numbers, 5, 5, 5, 5, 5 answer 25
+Operator +, Numbers, 7, 8 answer 15
+Operator p, Numbers, 9, 9 answer 9

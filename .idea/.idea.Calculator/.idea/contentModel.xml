@@ -6,6 +6,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Calculator.csproj" t="IncludeRecursive" />
         <e p="DateCalculatorClass.cs" t="Include" />
+        <e p="ExceptionClass.cs" t="Include" />
         <e p="LogClass.cs" t="Include" />
         <e p="logs.txt" t="Include" />
         <e p="NumberCalculatorClass.cs" t="Include" />

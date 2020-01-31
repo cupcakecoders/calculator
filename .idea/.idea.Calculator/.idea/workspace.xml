@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f2f281f-c1a4-4566-9601-6e4ace40b07c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Calculator/ExceptionClass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/DateCalculatorClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/DateCalculatorClass.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculator/NumberCalculatorClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/NumberCalculatorClass.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/PromptsClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/PromptsClass.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculator/bin/Debug/netcoreapp3.1/Calculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/bin/Debug/netcoreapp3.1/Calculator.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculator/bin/Debug/netcoreapp3.1/Calculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/bin/Debug/netcoreapp3.1/Calculator.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculator/logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/logs.txt" afterDir="false" />
@@ -22,21 +21,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/61048D37-30BE-4A81-886E-AF049755226F/7e/ab5e2299/02000004pdb.il" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Calculator/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Calculator/LogClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Calculator/DateCalculatorClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Calculator/PromptsClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/407BDC87-9D10-4CC3-880A-4F9DEF6C1A0B/6/Console.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Calculator/ExceptionClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Calculator/NumberCalculatorClass.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Calculator/LogClass.cs" />
-        <option value="$PROJECT_DIR$/Calculator/NumberCalculatorClass.cs" />
         <option value="$PROJECT_DIR$/Calculator/DateCalculatorClass.cs" />
         <option value="$PROJECT_DIR$/Calculator/Program.cs" />
         <option value="$PROJECT_DIR$/Calculator/PromptsClass.cs" />
+        <option value="$PROJECT_DIR$/Calculator/ExceptionClass.cs" />
+        <option value="$PROJECT_DIR$/Calculator/NumberCalculatorClass.cs" />
       </list>
     </option>
   </component>
@@ -121,26 +123,26 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="45" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777@0.23.1280.777" timestamp="1580159680125" />
-    <state width="598" height="232" key="GridCell.Tab.0.bottom" timestamp="1580420658700">
+    <state width="598" height="232" key="GridCell.Tab.0.bottom" timestamp="1580501603796">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="598" height="232" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1580420658700" />
-    <state width="598" height="232" key="GridCell.Tab.0.center" timestamp="1580420658699">
+    <state width="598" height="232" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1580501603796" />
+    <state width="598" height="232" key="GridCell.Tab.0.center" timestamp="1580501603795">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="598" height="232" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1580420658699" />
-    <state width="598" height="232" key="GridCell.Tab.0.left" timestamp="1580420658698">
+    <state width="598" height="232" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1580501603795" />
+    <state width="598" height="232" key="GridCell.Tab.0.left" timestamp="1580501603793">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="598" height="232" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1580420658698" />
-    <state width="598" height="232" key="GridCell.Tab.0.right" timestamp="1580420658699">
+    <state width="598" height="232" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1580501603793" />
+    <state width="598" height="232" key="GridCell.Tab.0.right" timestamp="1580501603795">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="598" height="232" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1580420658699" />
-    <state x="480" y="150" key="Rider.ProjectTemplateDialog.Size" timestamp="1580236357679">
+    <state width="598" height="232" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1580501603795" />
+    <state x="480" y="150" key="Rider.ProjectTemplateDialog.Size" timestamp="1580480668622">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="480" y="150" key="Rider.ProjectTemplateDialog.Size/0.23.1280.777@0.23.1280.777" timestamp="1580236357679" />
+    <state x="480" y="150" key="Rider.ProjectTemplateDialog.Size/0.23.1280.777@0.23.1280.777" timestamp="1580480668622" />
     <state x="759" y="123" key="VCS.ChangeListViewerDialog" timestamp="1580154939385">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
