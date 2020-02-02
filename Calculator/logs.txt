@@ -1,2 +1,4 @@
-Operator +, Numbers, 7, 8 answer 15
-Operator p, Numbers, 9, 9 answer 9
+Date 12/05/2040 00:00:00, days to add 5, answer 12/10/2040 00:00:00
+Operator /, Numbers, 3, 4 answer 0
+Operator 5, Numbers, 2, 3 answer 2
+Operator *, Numbers, 3, 3 answer 9

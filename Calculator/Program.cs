@@ -9,8 +9,11 @@ namespace Calculator
 {
     class Program
     {
-        private const int NumberCalculator = 1;
-        private const int DateCalculator = 2;
+        enum CalculatorType
+        {
+            NumberCalc = 1,
+            DateCalc = 2
+        }
         
         static void Main(string[] args)
         {
@@ -20,9 +23,11 @@ namespace Calculator
             
             while (true)
             {
-                int calculationMode = AskForCalculationMode();
-
-                if (calculationMode == NumberCalculator)
+                
+                CalculatorType calculationMode = AskForCalculationMode();
+                 
+                if (calculationMode == CalculatorType.NumberCalc)
+                
                 {
                     var newnumbercalculation = new NumberCalculatorx();
                     newnumbercalculation.PerformOneCalculation();
@@ -42,18 +47,21 @@ namespace Calculator
         }
         
 
-        static int AskForCalculationMode()
+        private static CalculatorType AskForCalculationMode()
         {
-            var calculatorType = Prompts.UserInput("Which calculator do you want? \n 1) Numbers \n 2) Dates");
-            if (calculatorType.HasValue)
+            var userCalChoice = Prompts.UserInput("Which calculator do you want? \n 1) Numbers \n 2) Dates");
+            if (userCalChoice == 1)
             {
-                return calculatorType.Value;
+                return CalculatorType.NumberCalc;
+            }
+            if (userCalChoice == 2)
+            {
+                return CalculatorType.DateCalc;
             }
             else
             {
                 return AskForCalculationMode();
             }
-                
         }
     }
 }

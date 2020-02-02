@@ -79,7 +79,7 @@ namespace Calculator
         // create method that takes in multiple strings ie operators and myOperator
         
 
-        public void NumbersCalcException()
+        /*public void NumbersCalcException()
         
         {
 
@@ -101,13 +101,14 @@ namespace Calculator
             try
             {
                 var result = (a myOperator a);
+                
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
                 throw;
             }
-        }
+        }*/
     }
 }
 

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f2f281f-c1a4-4566-9601-6e4ace40b07c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Calculator/ExceptionClass.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculator/NumberCalculatorClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/NumberCalculatorClass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculator/bin/Debug/netcoreapp3.1/Calculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/bin/Debug/netcoreapp3.1/Calculator.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculator/bin/Debug/netcoreapp3.1/Calculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/bin/Debug/netcoreapp3.1/Calculator.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculator/logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/logs.txt" afterDir="false" />
@@ -35,10 +34,10 @@
       <list>
         <option value="$PROJECT_DIR$/Calculator/LogClass.cs" />
         <option value="$PROJECT_DIR$/Calculator/DateCalculatorClass.cs" />
-        <option value="$PROJECT_DIR$/Calculator/Program.cs" />
         <option value="$PROJECT_DIR$/Calculator/PromptsClass.cs" />
         <option value="$PROJECT_DIR$/Calculator/ExceptionClass.cs" />
         <option value="$PROJECT_DIR$/Calculator/NumberCalculatorClass.cs" />
+        <option value="$PROJECT_DIR$/Calculator/Program.cs" />
       </list>
     </option>
   </component>
@@ -123,22 +122,22 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="45" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777@0.23.1280.777" timestamp="1580159680125" />
-    <state width="598" height="232" key="GridCell.Tab.0.bottom" timestamp="1580501603796">
+    <state width="598" height="232" key="GridCell.Tab.0.bottom" timestamp="1580641882636">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="598" height="232" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1580501603796" />
-    <state width="598" height="232" key="GridCell.Tab.0.center" timestamp="1580501603795">
+    <state width="598" height="232" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1580641882636" />
+    <state width="598" height="232" key="GridCell.Tab.0.center" timestamp="1580641882635">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="598" height="232" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1580501603795" />
-    <state width="598" height="232" key="GridCell.Tab.0.left" timestamp="1580501603793">
+    <state width="598" height="232" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1580641882635" />
+    <state width="598" height="232" key="GridCell.Tab.0.left" timestamp="1580641882634">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="598" height="232" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1580501603793" />
-    <state width="598" height="232" key="GridCell.Tab.0.right" timestamp="1580501603795">
+    <state width="598" height="232" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1580641882634" />
+    <state width="598" height="232" key="GridCell.Tab.0.right" timestamp="1580641882635">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="598" height="232" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1580501603795" />
+    <state width="598" height="232" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1580641882635" />
     <state x="480" y="150" key="Rider.ProjectTemplateDialog.Size" timestamp="1580480668622">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -155,5 +154,28 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="625" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1580329531835" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Calculator/NumberCalculatorClass.cs</url>
+          <line>102</line>
+          <properties documentPath="$PROJECT_DIR$/Calculator/NumberCalculatorClass.cs" initialLine="102">
+            <startOffsets>
+              <option value="2795" />
+              <option value="2811" />
+              <option value="2824" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2810" />
+              <option value="2824" />
+              <option value="2825" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
